@@ -47,6 +47,8 @@
 .contact__socials a {
   background: var(--color-bg2);
   padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   font-size: 0.9rem;
   transition: var(--transition);
@@ -81,6 +83,7 @@ textarea {
   width: max-content;
   margin-top: 1rem;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 
 /* Tablets */
@@ -120,5 +123,9 @@ textarea {
   }
   .form__name input[type="text"] {
     width: 100%;
+  }
+  .contact__socials {
+    justify-content: center;
+    margin: 2rem 0 0 0;
   }
 }

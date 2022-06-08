@@ -249,6 +249,10 @@ header {
   background: transparent;
   border-color: var(--color-primary);
 }
+.course__image img {
+  height: 14.7rem;
+}
+
 .course__info {
   padding: 2rem;
 }
@@ -274,8 +278,17 @@ header {
   align-items: center;
   gap: 1.4rem;
   height: fit-content;
+  border-radius: 0.8rem;
   background: var(--color-primary);
   cursor: pointer;
+}
+.faq .course--btn {
+  margin-top: 2rem;
+  padding: 1rem 1.2rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
 }
 
 .faq h4 {
@@ -288,12 +301,12 @@ header {
   font-size: 1.2rem;
 }
 
-.faq p {
+.faq .answer--content {
   margin-top: 0.8rem;
   display: none;
 }
 
-.faq.open p {
+.faq.open .answer--content {
   display: block;
 }
 /* Testimonials */
@@ -522,6 +535,10 @@ footer ul li a:hover {
   }
   .header__left p {
     margin-bottom: 1.3rem;
+  }
+  /* faq */
+  .faq .course--btn {
+    padding: 0.9rem;
   }
   /* Catigories */
   .catigories__right {
